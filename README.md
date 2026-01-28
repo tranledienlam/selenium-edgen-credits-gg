@@ -164,8 +164,8 @@ python3 --version
 - Ví dụ:
   ```plaintext
   profile1|email1@gmail.com|111111|38.154.227.167:2534  // Đầy đủ
-  profile2|email2@gmail.com|111111                                       // không proxy
-  profile4|email4@gmail.com                                              // không mật khẩu, không proxy
+  profile2|email2@gmail.com|111111                      // không proxy
+  profile4|email4@gmail.com                             // không mật khẩu, không proxy
   ```
 
 ### 3️⃣ Chỉnh sửa cấu hình file `config.txt`.
