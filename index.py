@@ -65,7 +65,7 @@ class Auto:
         self.node.find_and_click(By.XPATH, '//p[contains(., "credits")]')
         self.node.find_and_click(By.XPATH, '//span[contains(., "Go")]')
         url_task= self.node.get_url()
-        if url_task and 'task' in url_task:
+        if self.node.find(By.XPATH, '//p[contains(text(),"Check-in Rewards")]'):
             self.node.log('✅ Đang trang Task nhiệm vụ')
             return True
         
